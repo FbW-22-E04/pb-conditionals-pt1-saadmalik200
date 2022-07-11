@@ -17,19 +17,19 @@ const b = 7;
 const c = 8;
 
 if (a > b && a > c) {
-  console.log("A is largest", a);
+  console.log(a);
 } else if (b > a && b > c) {
-  console.log("B is largest", b);
+  console.log(b);
 } else {
-  console.log("C is largest", c);
+  console.log(c);
 }
 
 if (int1 > int2 && int1 > int3) {
-  console.log("Int1 is largest", int1);
+  console.log(int1);
 } else if (int2 > int1 && int2 > int3) {
-  console.log("Int2 is largest", int2);
+  console.log(int2);
 } else {
-  console.log("Int3 is largest", int3);
+  console.log(int3);
 }
 
 const str = "Python";
@@ -51,7 +51,7 @@ if (int1 + int2 >= 50 && int1 + int2 <= 80) {
 console.log("------------------------------------");
 
 const int4 = 4;
-const int5 = 2;
+const int5 = 22;
 
 if (int4 + int5 == 8) {
   console.log(true);
@@ -84,4 +84,40 @@ if (int4 == int5) {
   console.log((int4 + int5) * 3);
 } else {
   console.log(int4 + int5);
+}
+
+console.log("------------------------------------");
+
+if (int5 > 19) {
+  console.log((int5 - 19) * 2);
+} else {
+  console.log(int5 - 19);
+}
+
+const firstName = "Saad";
+const age = 31;
+
+if (age < 13) {
+  console.log(firstName, "is a child");
+} else if (age >= 13 && age < 20) {
+  console.log(firstName, "is a teenager");
+} else if (age >= 20 && age < 30) {
+  console.log(firstName, "is a young adult");
+} else {
+  console.log(firstName, " is a adult");
+}
+
+switch (true) {
+  case age < 13:
+    console.log(firstName, "is a child");
+    break;
+  case age >= 13 && age < 20:
+    console.log(firstName, "is a teenager");
+    break;
+  case age >= 20 && age < 30:
+    console.log(firstName, "is a young adult");
+    break;
+  default:
+    console.log(firstName, " is a adult");
+    break;
 }
