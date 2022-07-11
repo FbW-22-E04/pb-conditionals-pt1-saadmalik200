@@ -118,6 +118,6 @@ switch (true) {
     console.log(firstName, "is a young adult");
     break;
   default:
-    console.log(firstName, " is a adult");
+    console.log(firstName, "is a adult");
     break;
 }
